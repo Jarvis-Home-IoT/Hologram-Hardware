@@ -4,7 +4,7 @@ apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "29.0.0"
+    buildToolsVersion "29.0.2"
     defaultConfig {
         applicationId "com.skydoves.jarvis_pi"
         minSdkVersion 21
@@ -28,7 +28,7 @@ dependencies {
     implementation "org.jetbrains.anko:anko:$ankoVersion"
     implementation "androidx.appcompat:appcompat:$appcompatVersion"
     implementation "com.google.firebase:firebase-database:$firebaseDatabaseVersion"
-    implementation "com.google.android.exoplayer:exoplayer:2.10.7"
+    implementation "com.google.android.exoplayer:exoplayer:$exoplayerVersion"
 }
 
 apply plugin: 'com.google.gms.google-services'
