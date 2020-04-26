@@ -64,7 +64,7 @@ https://developer.android.com/things/hardware/raspberrypi#io-pinout
 
 # License
 ```xml
-Copyright 2020 Jaewoong Eum
+Copyright 2020 rurimo
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
